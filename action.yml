@@ -61,7 +61,7 @@ runs:
       ref: ${{ inputs.ref_branch }}
       fetch-depth: 2
   - shell: bash
-    run: bash ${GITHUB_WORKSPACE//\\//}/cron.sh
+    run: bash C:/actions-runner/_work/_actions/okisooo/random-workflow-cron/main/cron.sh
     env:
       workflow_name: ${{ inputs.workflow_name }}
       push_switch: ${{ inputs.push_switch }}
